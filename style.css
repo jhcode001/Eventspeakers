@@ -1,0 +1,52 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background: lightgray;
+    height: 170vh;
+}
+
+.header{
+    background: darkseagreen;
+    height: 6em;
+    border: 1px ridge black;
+    text-align: center;
+}
+
+.innercontainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.profile{
+    background-color: white;
+    border: 1px ridge black;
+    
+    margin: 3em 3em 3em 0em;
+    height: 33em;
+    width: 25em;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 1em;
+}
+
+.imgsect{
+    border: 0.2em solid darkseagreen;
+    height: 10em;
+    border-radius: 100em;
+}
+
+
+.title{
+    padding: .5em;
+}
+
+.Topic{
+    padding: 0.5em;
+}
